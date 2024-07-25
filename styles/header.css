@@ -1,0 +1,44 @@
+header {
+  padding-block: 2rem;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#profile {
+  display: flex;
+  gap: 2rem;
+}
+
+#profile > div {
+  max-width: 24rem;
+}
+
+#profile-info h1 {
+  font: var(--text-lg);
+  color: var(--text-color-primary);
+  margin-bottom: 0.5rem;
+}
+
+#profile-info p {
+  font: var(--text-md);
+  color: var(--text-color-secondary);
+  margin-bottom: 0.88rem;
+}
+
+#profile-stats {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 17.5rem;
+  list-style: none;
+}
+
+#profile-stats li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
