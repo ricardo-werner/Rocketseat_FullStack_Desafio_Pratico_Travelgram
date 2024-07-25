@@ -1,0 +1,11 @@
+footer {
+  display: flex;
+  padding-block: 1.5rem;
+  gap:1.5rem;
+}
+
+footer spam:nth-child(1) {
+  flex: 1;
+
+}
+
